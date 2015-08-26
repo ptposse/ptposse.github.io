@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Nevis-Bold';
+    src:url('Nevis-Bold.ttf.woff') format('woff'),
+        url('Nevis-Bold.ttf.svg#Nevis-Bold') format('svg'),
+        url('Nevis-Bold.ttf.eot'),
+        url('Nevis-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'Nevis-Bold';
+	color: white;
+}
+
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
